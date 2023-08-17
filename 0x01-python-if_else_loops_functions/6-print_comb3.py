@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-for x in range(10):
-    for y in range(x + 1, 10):
-        print('{}{}'.format(x, y),end='')
-        if x != 8 or y != 9:
-            print(end=', ')
+for m in range(10):
+    for n in range(m + 1, 10):
+        print("{:d}{:d}".format(m, n), end="")
+        if m != 8 or n != 9:
+            print(end=", ")
+print()
