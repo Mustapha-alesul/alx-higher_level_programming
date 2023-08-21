@@ -7,5 +7,5 @@ if __name__ == "__main__":
     print("{} argument{}{}".format(argm, "" 
         if argm == 1 else "s", ":" if argm > 0 else "."))
 
-    for i, ar in enumerate(argv, start=1):
+    for i, ar in enumerate(argv, start = 1):
         print("{}: {}".format(i, ar))
